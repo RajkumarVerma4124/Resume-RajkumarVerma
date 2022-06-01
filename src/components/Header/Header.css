@@ -1,0 +1,98 @@
+.header {
+    margin-bottom: 30px !important;
+    background-color: white !important;
+    padding: 0 22px 0 0 !important;
+    border-radius: 6px !important;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.header .header_navlink {
+    padding: 0
+}
+
+.header_content_links {
+    content: hidden;
+}
+
+.header .header_link {
+    font-weight: 500;
+    color: darkslategray !important;
+}
+
+.header .header_link:hover {
+    color: var(--main-color) !important;
+}
+
+.header .header_link_active {
+    font-weight: 500;
+    color: var(--main-color) !important;
+}
+
+.header .header_home {
+    background-color: var(--main-color);
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.header .header_left {
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.header .header_right {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.header .header_right>a>.MuiSvgIcon-root {
+    font-size: 16px !important;
+    margin-right: 12px;
+    color: black;
+}
+
+.social_icons {
+    color: #000;
+    font-size: 12px;
+    transition: all ease 0.2s;
+    width: 24px;
+    height: 18px;
+    display: inline-block;
+}
+
+.social_icons:hover {
+    color: #337ab7;
+    text-decoration: none;
+    float: left;
+    font-size: 14px;
+}
+
+.header_right>.a_nostyles {
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .header {
+        border-bottom: 2px solid whitesmoke;
+    }
+    .header_right {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .header_left>a {
+        border-bottom: 1px solid whitesmoke;
+        width: 100%;
+        text-align: center;
+    }
+    .header_right>.a_nostyles {
+        text-decoration: none;
+    }
+}
