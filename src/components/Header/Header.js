@@ -49,7 +49,7 @@ const Header = (props) => {
             Portfolio
           </Nav.Link>
 
-            <Nav.Link
+            {/* <Nav.Link
             as={NavLink}
             to="/profiles"
             className={
@@ -57,7 +57,7 @@ const Header = (props) => {
             }
           >
             Profiles
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
 
         <div className="header_right">

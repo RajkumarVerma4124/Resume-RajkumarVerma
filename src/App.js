@@ -30,9 +30,9 @@ function App() {
                 <Route path="/resume">
                   <Resume />
                 </Route>
-                <Route path="/profiles">
+                {/* <Route path="/profiles">
                   <ProfileSection />
-                </Route>
+                </Route> */}
 
                 {/* Default redirect */}
                 <Redirect to="/resume" />
