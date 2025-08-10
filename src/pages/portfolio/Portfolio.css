@@ -1,7 +1,7 @@
 /* Tabs */
 
 .customTabs .customTabs_item {
-    padding: 0px !important;
+    padding: 1px !important;
     min-width: 0px !important;
     margin-right: 20px !important;
     text-transform: inherit !important;
@@ -12,6 +12,9 @@
 
 .customTabs .active {
     color: var(--main-color) !important;
+    padding: 1px !important;
+    padding-bottom: 0px !important;
+    border-bottom: 2px solid var(--main-color) !important;
 }
 
 
@@ -27,6 +30,8 @@
     border-radius: 5px;
     overflow: hidden;
     outline-width: 0px !important;
+    border-bottom: 4px solid rgb(221, 221, 221) !important;
+    border-top: 2px solid rgb(221, 221, 221) !important;
 }
 
 .customCard .customCard_image {

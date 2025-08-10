@@ -174,11 +174,11 @@ const Resume = () => {
       <Grid container className="section pb_45">
         <Grid item className="section_title mb_30">
           <span></span>
-          <h6 className="section_title_text">My Services</h6>
+          <h6 className="section_title_text">Current Stack</h6>
         </Grid> 
 
         <Grid item xs={12}>
-          <Grid container spacing={3} justify="space-around">
+          <Grid container spacing={3} justifyContent="space-around">
             {resumeData.services.map((service, idx) => (
               <Grid item xs={12} sm={6} md={3} key={idx}>
                 <div className="service">
@@ -199,7 +199,7 @@ const Resume = () => {
       {/* Skills */}
       <Grid container className="section graybg pb_45 p_50">
         <Grid item xs={12}>
-          <Grid container justify="space-between" spacing={3}>
+          <Grid container justifyContent="space-between" spacing={3}>
             {resumeData.skills.map((skill, idx) => (
               <Grid item xs={12} sm={6} md={3} key={idx}>
                 <Paper elevation={0} className="skill">
@@ -235,7 +235,7 @@ const Resume = () => {
           className="section pt_45 pb_45"
         >
           {/* Contact form */}
-          <Grid item xs={12} lg={7}>
+          {/* <Grid item xs={12} lg={7}>
             <Grid container>
               <Grid item className="section_title mb_30">
                 <span></span>
@@ -283,10 +283,10 @@ const Resume = () => {
                 </Grid>
               </Grid>
             </Grid>
-          </Grid>
+          </Grid> */}
 
           {/* Contact information */}
-          <Grid item xs={12} lg={5}>
+          <Grid item xs={12} lg={8}>
             <Grid container>
               <Grid item className="section_title mb_30">
                 <span></span>

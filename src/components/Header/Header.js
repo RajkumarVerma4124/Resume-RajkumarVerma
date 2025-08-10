@@ -62,7 +62,7 @@ const Header = (props) => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <a href="/#contact" className="a_nostyles">
+          <a href="https://www.linkedin.com/in/rajkumar-verma-6378ba308/" className="a_nostyles">
             <CustomButton type="" text={"Hire Me"} icon={<Telegram />} />
           </a>
         </div>

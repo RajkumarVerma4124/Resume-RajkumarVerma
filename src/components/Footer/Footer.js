@@ -11,16 +11,15 @@ const Footer = () => {
       </div>
       <div className="footer_right">
         <Typography className="footer_copyright">
-          Designed and Developed by{" "}
+          {/* Designed and Developed by{" "} */}
           <a href="/" target="_blank">
-            Rajkumar Verma
-          </a>
+            All projects are open-source and available on my GitHub. They are created purely for learning purposes, primarily by following YouTube tutorials, and are often clones or practice implementations.          </a>
           <br />
-          Clone idea from{" "}
+          {/* Clone idea from{" "}
           <a href="https://youtu.be/N2-RWOEfdcU" target="_blank">
             Youtube(Salman Fazal)
           </a>
-          .
+          . */}
         </Typography>
       </div>
     </div>

@@ -1,33 +1,25 @@
-import React from "react";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import {
-    Apps,
-    AppsOutlined,
-    AssignmentOutlined,
-    Devices,
-    Language,
-    WebOutlined,
-    YouTube,
+  AssignmentOutlined,
+  Devices,
+  Language,
+  WebOutlined,
 } from "@material-ui/icons";
 import Resume from "../assets/files/RajkumarCV(2021).pdf";
 import {
-    portfolioImages
+  portfolioImages
 } from "./portfolioImages";
 import { RiFacebookFill } from 'react-icons/ri'
-import { SiTwitter } from 'react-icons/si'
 import { RiLinkedinFill } from 'react-icons/ri'
 import { ImGithub } from 'react-icons/im'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   name: "Rajkumar Verma",
-  title: "Full-Stack Developer",
+  title: "Senior Full-Stack Developer",
   birthday: "13th January 1997",
   email: "vermar4124@gmail.com",
-  address: "Navi Mumbai, MH",
+  address: "Ghansoli Sector 16, Navi Mumbai, 400701, MH",
   phone: "+91 8169521112",
 
   socials: {
@@ -36,13 +28,8 @@ export default {
       text: "Rajkumar Verma",
       icon: <RiFacebookFill />,
     },
-    Twitter: {
-      link: "https://twitter.com/V66125596",
-      text: "R^V^",
-      icon: <SiTwitter />,
-    },
     LinkedIn: {
-      link: "https://www.linkedin.com/in/rajkumar-verma-6b0172212/",
+      link: "https://www.linkedin.com/in/rajkumar-verma-6378ba308/",
       text: "Rajkumar Verma",
       icon: <RiLinkedinFill />,
     },
@@ -61,31 +48,44 @@ export default {
 
   experiences: [
     {
-      institute: "CDAC",
-      title: "Worked on Automated Cleanining Robot",
-      date: "2019 - 2020",
-      description: "Training under cdac supervision",
+      institute: "Instant Transport Solution Pvt Ltd – Gurugram, India",
+      title: "Senior Full Stack Developer",
+      date: "May 2025 – Present",
+      description: "• Collaborated with product owners and BA teams to define feature requirements and translatethem into scalable application modules." +
+        "Increased API response speed by 30% by designing and deploying RESTful services using .NET Core Web API." +
+        "\n• Refactored legacy ASP.NET Web Forms applications, reducing code complexity and boosting maintainability." +
+        "\n• Streamlined user evaluation process, reducing manual assessment time by 40% through automation and optimized workflows." +
+        "\n• Coordinated with global stakeholders to ensure compliance with international product standards."
     },
     {
-      institute: "APPDID INFOTECH PVT LTD",
-      title: "30 hours of training",
-      date: "Jan 2020 - Feb 2020",
+      institute: "Instant Transport Solution Pvt Ltd – Gurugram, India",
+      title: "Full Stack Developer",
+      date: "June 2022 – April 2025",
+      description: "Spearheaded the development of Driver Management, Tyre MIS, and Trip Management modules used by over 500+ users/managers daily." +
+        "\n• Created interactive MIS dashboards for Tyres & Trips, increasing operational visibility and decision-making efficiency by 35%." +
+        "\n• Migrated apps from Angular 7 to Angular 16 and .NET Core 3.1 to .NET 6, improving erformance by 20% and reducing tech debt." +
+        "\n• Implemented AWS S3 file compression, reducing storage usage by over 50%, optimizing monthly cloud costs." +
+        "\n• Integrated Fastag & Payment Gateway APIs (Terra, LogiPe, Happay) supporting real-time payment reconciliation." +
+        "\n• Designed a role-based auth system with JWT and middleware, enhancing security and user control." +
+        "\n• Maintained clean code standards, enforced unit testing, and led code reviews—resulting in 15% fewer bugs in production." +
+        "\n• Streamlined CI/CD with Azure DevOps, reducing deployment time by 40%." +
+        "\n• Hands-on with Git, AWS EC2, and Azure pipelines."
+    },
+    {
+      institute: "BrideLabz Fellowship Program",
+      title: ".Net With Angular and SQL Server",
+      date: "Jan 2022 - June 2022",
       description:
-        "Developed va rious basic to intermediate level applications and successfully completed 40+ of hours of android development training in java",
+        "• The program covered the concepts of Basic & Object Oriented" +
+        "Programming with #C, Advanced Programming Constructs," +
+        "Web Application Introduction with HTML, CSS and JS, .NET FS w Angular + SQL Server"
     },
     {
-      institute: "BRIDGELABZ",
+      institute: "BrideLabz Fellowship Program",
       title: "Java Developer",
       date: "june 2020 - July 2020",
       description:
         "• Completed Coding Star Certification on the programming language on java and shell scripting programming",
-    },
-    {
-      institute: "Youtube",
-      title: "Web Developer",
-      date: "December 2020 - Sep 2021",
-      description:
-        "Developed various basic to intermediate web application with the the help of some youtube channels in react and next js",
     },
   ],
 
@@ -113,20 +113,20 @@ export default {
 
   services: [
     {
-      title: "Android Developer",
+      title: "Angular",
       description:
-        "I have built quite a few personal projects with android on college level projects",
+        "Over 3 years of professional experience in Angular, with additional expertise in React and Next.js technologies.",
       icon: <Devices />,
     },
     {
-      title: "Web-app Developer",
+      title: ".Net",
       description:
-        "Several months of personal experience with web technologies.",
+        "Over 3 years of professional experience with ASP.NET MVC and Razor Pages.",
       icon: <WebOutlined />,
     },
     {
-      title: "IOT ",
-      description: "Worked on Iot technology in College level projects",
+      title: "SQL Server",
+      description: "Over 3 years of professional experience in SQL Server, including database design, development, and optimization",
       icon: <AssignmentOutlined />,
     },
   ],
@@ -135,6 +135,7 @@ export default {
     {
       title: "FRONT-END",
       description: [
+        "Angular",
         "ReactJS",
         "Tailwind",
         "JavaScript",
@@ -145,11 +146,11 @@ export default {
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", "Java", "Python"],
+      description: [".NET Framework", ".NET Core", "C#"]
     },
     {
       title: "DATABASES",
-      description: ["Firebase", "MySQL", "MongoDB"],
+      description: ["Firebase", "MySQL", "SQL Server"],
     },
     {
       title: "SOURCE CONTROL ",
