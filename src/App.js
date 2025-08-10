@@ -9,6 +9,8 @@ import Resume from "./pages/resume/Resume";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
+import ProfileSection from "./pages/profilesection/profilesection";
+import { Redirect } from "react-router-dom/cjs/react-router-dom";
 
 function App() {
   return (
@@ -25,9 +27,15 @@ function App() {
                 <Route path="/portfolio">
                   <Portfolio />
                 </Route>
-                <Route path="/">
+                <Route path="/resume">
                   <Resume />
                 </Route>
+                {/* <Route path="/profiles">
+                  <ProfileSection />
+                </Route> */}
+
+                {/* Default redirect */}
+                <Redirect to="/resume" />
               </Switch>
             </div>
           </Router>

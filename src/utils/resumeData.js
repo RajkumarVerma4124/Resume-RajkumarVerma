@@ -16,7 +16,7 @@ import { ImGithub } from 'react-icons/im'
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   name: "Rajkumar Verma",
-  title: "Senior Full-Stack Developer",
+  title: "Senior Software Developer (SDE II) \n Instant Transport Solution Pvt Ltd \n .NET Core | Angular | SQL Server | AWS",
   birthday: "13th January 1997",
   email: "vermar4124@gmail.com",
   address: "Ghansoli Sector 16, Navi Mumbai, 400701, MH",
@@ -43,7 +43,7 @@ export default {
   resume: Resume,
 
   about:
-    "I am a hands-on full stack developer with experience in designing and developing websites and applications using a varied range of technologies and programming languages. I have proven ability to build interactive and user friendly websites and applications. I am personally known to be a very hard working, passionate, adaptable and skilled individual, always striving to get better and achieve.",
+    "Results-driven Full Stack Developer with 3+ years of hands-on experience in designing, developing, and maintaining enterprise-grade web applications using .NET (Core & Framework), Angular (7–16), and MS SQL Server. Adapt at delivering robust backend APIs and responsive frontend interfaces. Skilled in SDLC, Agile methodologies, and modern DevOps practices. Passionate about writing clean, maintainable code and continuously optimizing performance for user-centric applications.",
   //"A passionate developer constantly acquiring and putting my knowledge to practice by serving the community.",
 
   experiences: [

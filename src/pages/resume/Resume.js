@@ -43,7 +43,7 @@ const Resume = () => {
   return (
     <>
       {/* About me */}
-       <Grid container className="section pb_45 pt_45">
+      <Grid container className="section pb_45 pt_45">
         <Grid item className="section_title mb_30">
           <span></span>
           <h6 className="section_title_text">About Me</h6>
@@ -175,7 +175,7 @@ const Resume = () => {
         <Grid item className="section_title mb_30">
           <span></span>
           <h6 className="section_title_text">Current Stack</h6>
-        </Grid> 
+        </Grid>
 
         <Grid item xs={12}>
           <Grid container spacing={3} justifyContent="space-around">
