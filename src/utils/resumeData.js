@@ -5,7 +5,7 @@ import {
   Language,
   WebOutlined,
 } from "@material-ui/icons";
-import Resume from "../assets/files/RajkumarCV(2021).pdf";
+import Resume from "../assets/files/RajkumarVerma(Resume).pdf";
 import {
   portfolioImages
 } from "./portfolioImages";
